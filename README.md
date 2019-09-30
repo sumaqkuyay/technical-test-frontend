@@ -15,8 +15,8 @@ The following are desired functionalities and/or tools that would be good to see
 
 ## Objectives
 
-*Evaluate the general knowledge of the JavaScript language.
-*Evaluate basic front-end knowledge.
-*Evaluate asynchronous code handling.
-*Evaluate good coding practices.
-*Check knowledge independently of the tool / framework.
+* Evaluate the general knowledge of the JavaScript language.
+* Evaluate basic front-end knowledge.
+* Evaluate asynchronous code handling.
+* Evaluate good coding practices.
+* Check knowledge independently of the tool / framework.
