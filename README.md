@@ -2,7 +2,7 @@
 
 # Github Profile Clone
 
-The goal of this test is to build a front-end application that uses the GitHub REST API to search users anddisplay their profile information, just like the actual GitHub web interface.Please send us your work through a link to a Github repository.
+The goal of this test is to build a front-end application that uses the [GitHub REST API](https://developer.github.com/v3/) to search users anddisplay their profile information, just like the actual GitHub web interface.Please send us your work through a link to a Github repository.
 
 ## 1. Requirements
 
