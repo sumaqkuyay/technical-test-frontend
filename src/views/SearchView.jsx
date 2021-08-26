@@ -1,7 +1,6 @@
 import React from 'react';
-import { Layout, Row, Col, Input} from 'antd';
-import imgGithub from '../images/logotipo-de-github.svg';
-
+import { Layout, Row, Col, Input,Avatar} from 'antd';
+import { GithubOutlined } from '@ant-design/icons';
 import FooterView from '../components/FooterView';
 
 const { Content } = Layout;
@@ -15,8 +14,8 @@ const SearchView = ()=>{
         <Row>
           <Col span={24}>
            <div className="content-view">
-            <img className="img-logo" src={imgGithub}  alt="logo" />
-            <Search placeholder="Search" style={{ width: 200 }} />
+            <Avatar size={550} icon={<GithubOutlined />} />
+            <Search className="search" placeholder="Search" style={{ width: 300 }} />
            </div>
           </Col>
         </Row>

@@ -1,2 +1,17 @@
 @import "./styleViews/SearchView";
+@import "./styleViews/ProfileView";
+@import "./styleComponents/HeaderView";
 @import "./styleComponents/FooterView";
+
+body{
+  font-size: 14px;
+}
+.layout-view{
+  min-height: 100vh;
+  background-color: #161b22;
+}
+.site-content-view{
+  background-color: #161b22;
+  // margin: 24px 16px;
+  // padding: 24px;
+}

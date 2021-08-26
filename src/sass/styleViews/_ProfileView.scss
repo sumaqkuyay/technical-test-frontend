@@ -1,0 +1,38 @@
+.content-card{
+  background-color: #303030;
+  padding: 24px;
+  .user-profile{
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .ant-typography{
+      color: #fff;
+    }
+    .name{
+      margin-top: 12px;
+      font-size: 26px;
+      line-height: 1.25;
+    }
+    .nickname{
+      margin-top: 10px;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 24px;
+    }
+  }
+  .user-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    .ant-typography{
+      color: #fff;
+    }
+    .bio{
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  }
+}

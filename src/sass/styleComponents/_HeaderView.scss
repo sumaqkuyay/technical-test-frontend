@@ -1,0 +1,19 @@
+.site-layout-background{
+    display: flex;
+    justify-content: space-between;
+    background: #161b22;
+   .navbar-logo{
+    background-color: #161b22;
+    cursor: pointer;
+   }
+   .navbar-left{
+    label{
+      color: #fff;
+      font-weight:bold;
+    }
+   }
+   .navbar-right{
+    display: flex;
+    align-items: center;
+   }
+}
