@@ -2,7 +2,6 @@ import React ,{useEffect, useState}from 'react';
 import { Layout, Avatar,Typography, Tag } from 'antd';
 import { UserOutlined, BookOutlined, TwitterOutlined, TeamOutlined, HomeOutlined } from '@ant-design/icons';
 import axios from 'axios';
-import profile from '../images/logotipo-de-github.svg';
 import FooterView from '../components/FooterView';
 import HeaderView from '../components/HeaderView';
 
@@ -26,7 +25,6 @@ const [infoProfile,setInfoProfile] = useState({});
       }
     })
     .then(response=>{
-      console.log(response);
       setInfoProfile({...response});
     })
     .catch(error=>{
@@ -46,7 +44,7 @@ const [infoProfile,setInfoProfile] = useState({});
         <Content className="site-content-view">
           <div className="content-card">
             <div className="user-profile">
-              <Avatar className="user-image" src={profile}  size={200} icon={<UserOutlined />} />
+              <Avatar className="user-image" src={infoProfile.avatar_url}  size={200} icon={<UserOutlined />} />
               <Typography.Text className="name">{infoProfile.name}</Typography.Text>
               <Typography.Text className="nickname">{infoProfile.login}</Typography.Text> 
             </div>
@@ -68,7 +66,7 @@ const [infoProfile,setInfoProfile] = useState({});
                   @{infoProfile.twitter_username}
                 </Tag>
                 <Tag icon={<HomeOutlined/>} color="#0d111796">
-                {infoProfile.location}
+                  {infoProfile.location}
                 </Tag>
               </div>
             </div>
