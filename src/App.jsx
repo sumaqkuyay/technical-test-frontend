@@ -11,7 +11,7 @@ const App = () => (
     <HashRouter>
       <Switch>
         <Route path="/" exact component={SearchView} />
-        <Route path="/profile" exact component={ProfileView} />
+        <Route path="/**" exact component={ProfileView} />
       </Switch>
     </HashRouter>
   </Router>

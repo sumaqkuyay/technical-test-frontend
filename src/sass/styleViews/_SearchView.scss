@@ -8,18 +8,32 @@
   padding-bottom: 40px;
 }
 .content-view{
-  margin-top: -85px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  .ant-avatar{
-    background-color: #3f78c700;
+  .logo-github{
+    width: 400px;
   }
-  .search{
-    margin-top: -50px;
-   margin-bottom: 20px;
+  .content-list{ 
+    width: 300px;
+    background-color:#616369;
+    ul{
+      margin-bottom: 0px;
+      border: 1px solid #fff;
+      li{
+        margin-left: -40px;
+        padding-left: 10px;
+        // background-color: darkturquoise;
+        border: 1px solid #fff;
+        cursor: pointer;
+        list-style: none;
+        &:hover{
+          background-color: #868686;
+      }
+      }
+    }
   }
 }
 .ant-input{
-  background-color: #0d1117;
+  background-color: #616369;
 }
