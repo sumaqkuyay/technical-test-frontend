@@ -17,7 +17,7 @@ const FooterView = ()=>{
         <label>GitHub</label>
       </div>
       <div className="navbar-right" >
-       <Search placeholder="Search" style={{ width: 300 }} />
+       {/* <Search placeholder="Search" style={{ width: 300 }} /> */}
       </div>
     </Header>
   );
