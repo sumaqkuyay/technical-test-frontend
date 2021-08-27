@@ -1,6 +1,6 @@
 {
   "name": "technical-test-frontend",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.6.3",
