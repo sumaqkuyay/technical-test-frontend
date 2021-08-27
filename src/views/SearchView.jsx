@@ -15,8 +15,8 @@ const SearchView = ()=>{
 
   const apiUser="https://api.github.com/search/";
 
-  const searchUsers = async (userSearch) => {
-    await axios.get(`${apiUser}users?q="${userSearch}"&per_page=5`)
+  const searchUsers = (userSearch) => {
+    axios.get(`${apiUser}users?q="${userSearch}"&per_page=5`)
     .then(response=>{
       if( response.status === 200){
         return response.data;
